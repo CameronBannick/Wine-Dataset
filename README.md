@@ -19,7 +19,7 @@ Proline
 
 Relationships were found between Alcohol, Malic Acid, Flavanoids, Color_intensity, Hue, and OD280.
 
-![image] (https://github.com/CameronBannick/Wine-Dataset/blob/main/Cluster_means.png)
+![image](https://github.com/CameronBannick/Wine-Dataset/blob/main/Cluster_means.png)
 ### Alcohol
 Cluster 0: Least amount of alcohol on average (12)
 Cluster 1: Most amount on average (14)
