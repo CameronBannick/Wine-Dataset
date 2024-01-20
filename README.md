@@ -14,7 +14,10 @@ Proanthocyanins
 Color_Intensity       
 Hue                   
 OD280                 
-Proline       
+Proline 
+## Cluster Model
+Before clustering the data, a principal component analysis was conducted. What this does is keep all of the important information and scales it down into less features. This allows the cluster model to run better. We condensed the features in 5 to retain 80% variance. We then went with 3 clusters, as our tests showed it work best.
+
 ## Cluster Analysis
 
 Relationships were found between Alcohol, Malic Acid, Flavanoids, Color_intensity, Hue, and OD280.
@@ -49,4 +52,10 @@ Cluster 2: Least on average (.7)
 Cluster 0: Middle amount on average (2.7)
 Cluster 1: Most amount on average (3.2)
 Cluster 2: Least on average (1.6)
+
+## Statistical Analysis
+After finding these relationships, we performed several hypothesis tests to see if there was a statistical significance between the features between clusters. The only feature that had a statistical significance was alcohol content.
+
+## Recomendations/Next Steps
+Training the model on more data to see if more relationships can be found. Clusters based on alcohol alone might be enough for customers, however consulting a SME for a second opinion might be wise.
 
