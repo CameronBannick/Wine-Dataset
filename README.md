@@ -16,7 +16,7 @@ Hue
 OD280                 
 Proline 
 ## Cluster Model
-Before clustering the data, a principal component analysis was conducted. What this does is keep all of the important information and scales it down into less features. This allows the cluster model to run better. We condensed the features in 5 to retain 80% variance. We then went with 3 clusters, as our tests showed it work best.
+Before clustering the data, a principal component analysis was conducted. What this does is keep all the important information and scales it down into less features. This allows the cluster model to run better. We condensed the features in 5 to retain 80% variance. We then went with 3 clusters, as our tests showed it worked best.
 
 ## Cluster Analysis
 
